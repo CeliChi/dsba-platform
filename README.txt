@@ -1,6 +1,8 @@
 Author: Zhongke Sun
 Date: April 9 2025
 
+Group Member: Yunhang Chi, Wenxi Huang, Shiyu Mao, Zhongke Sun
+
 ** This is README.txt file for our MLOps project **
 
 The project includes the following files
