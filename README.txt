@@ -1,7 +1,5 @@
-Author: Zhongke Sun
-Date: April 9 2025
-
 Group Member: Yunhang Chi, Wenxi Huang, Shiyu Mao, Zhongke Sun
+Date: April 9 2025
 
 ** This is README.txt file for our MLOps project **
 
@@ -63,4 +61,4 @@ You can use the following commands via our 'CLI.py'
 - python CLI.py predict
 - python CLI.py visualize
 
-If you have any other questions about the project, please let me know via zhongke.sun@student-cs.fr
+Please feel free to email us if you have any other questions about the project.
