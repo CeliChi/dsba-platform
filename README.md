@@ -1,7 +1,7 @@
 Group Member: Yunhang Chi, Wenxi Huang, Shiyu Mao, Zhongke Sun
 Date: April 9 2025
 
-** This is README.txt file for our MLOps project **
+This is README.txt file for our MLOps project
 
 The project includes the following files
 
