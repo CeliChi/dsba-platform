@@ -5,7 +5,7 @@ Date: April 9 2025
 
 The project includes the following files
 
-/DOCKER_DEPLOY
+/dsba-platform
 ├── main.py
 ├── preprocessing.py
 ├── model_training.py
