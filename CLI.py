@@ -1,9 +1,6 @@
 '''
-Author : Zhongke Sun
-Date : 2025/04/09
-
 ATTENTION: If you need to run this entire project, please replace all 'wenxi1203' with your Docker account username, otherwise you will get an error when build/push your container and image.
-ATTENTION: Otherwise, if you just want to run our model, you can just 'pull' my Docker image from Docker Hub and run it. (I have already pushed my Docker image to Docker Hub)
+ATTENTION: Otherwise, if you just want to run our model, you can just 'pull' my Docker image from Docker Hub and run it. (We have already pushed my Docker image to Docker Hub)
 '''
 
 
@@ -11,7 +8,7 @@ import argparse
 import os
 from pathlib import Path
 
-DOCKER_IMAGE = "wenxi1203/ml_iris_model"
+DOCKER_IMAGE = "wenxi1203/mlops-iris"
 CONTAINER_NAME = "iris_container"
 
 os.chdir(Path(__file__).resolve().parent)
