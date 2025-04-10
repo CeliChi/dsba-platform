@@ -8,6 +8,7 @@ The project includes the following files
 <pre>
 /dsba-platform
 ├── main.py
+├── get_path.py
 ├── preprocessing.py
 ├── model_training.py
 ├── model_evaluation.py
@@ -21,11 +22,12 @@ The project includes the following files
 
 
 
-Let me explain how the project work:
+Let us explain how the project work:
 
 Firstly, the project aim to build a docker and realize the most classical model in the machine learning -- using RandomForestClassifier to classify the iris dataset.
 
 You will find all model code in the '.py' scripts:
+- get_path.py: used to get the project path, and create relevant directories.
 - preprocessing.py: used for dataset loading, splitting, and exploratory data analysis through visualizations.
 - model_training.py: defines and trains a RandomForestClassifier, then saves the trained model to model.pkl and invokes evaluation.
 - model_evaluation.py: computes standard performance metrics and generates a confusion matrix.
@@ -50,7 +52,7 @@ CLI.py is Command Line Interface. You can just put 'python CLI.py' in your pytho
 
 If you need to run the project, make sure you have downloaded the DockerDesktop in your computer, and keep you logged in.
 
-If you want to run and test the entire project, from build, run, push, pull, delete, stop..., please make sure you replace all 'zhongkesun' in my 'CLI.py' to your Docker account name.
+If you want to run and test the entire project, from build, run, push, pull, delete, stop..., please make sure you replace all 'wenxi1203' with your Docker account username.
 
 If you just want to try our model, you can run 'python CLI.py pull' in your python terminal, then you will have our model, run 'run_model' you will get a result.
 
